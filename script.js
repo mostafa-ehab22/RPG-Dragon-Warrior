@@ -46,7 +46,7 @@ const monsters = [
 const locations = [
   {
     name: "town square",
-    "button text": ["Go to store", "Go to cave", "Fight Dragon"],
+    "button text": ["Go to store 🛖", "Go to cave 🧟‍♂️", "Fight Dragon 🐉🔥"],
     "button functions": [goStore, goCave, fightDragon],
     text: 'You are in the town square. You see a sign that says "Store".',
   },
@@ -85,7 +85,7 @@ const locations = [
   {
     name: "lose",
     "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
-    "button functions": [restart, restart, easterEgg],
+    "button functions": [restart, restart, restart],
     text: "You die. &#x2620;",
   },
   {
